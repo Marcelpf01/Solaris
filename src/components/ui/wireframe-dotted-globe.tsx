@@ -172,7 +172,7 @@ export default function RotatingEarth({ width = 800, height = 600, className = "
       }
     }
 
-    const rotation = [0, 0]
+    const rotation: [number, number] = [0, 0]
     let autoRotate = true
     const rotationSpeed = 0.5
 
